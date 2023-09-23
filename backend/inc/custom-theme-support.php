@@ -20,7 +20,7 @@
     //add_action( 'admin_menu', 'remove_acf_menu', 999); // remove acf admin
 
     add_action( 'wp_head', 'add_meta_tags' , 2 ); //Add meta_tags keywords from tags
-    function add_meta_tags() { 
+    function add_meta_tags() {
         global $post;
         if ( is_single() ) {
             $keywords = get_the_tags( $post->ID );

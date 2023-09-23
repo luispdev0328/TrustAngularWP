@@ -22,6 +22,5 @@
 //     register_taxonomy( 'taxonomy', 
 //     array( 'post_type' ), // from Post Type
 //      $args );
-
 // }
 ?>

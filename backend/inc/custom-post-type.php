@@ -57,5 +57,4 @@
 // add_action( 'init', 'Custom_post_type', 0 );
 
 // require get_template_directory() . '/inc/acf.php'; // for acf fields
-
 ?>
